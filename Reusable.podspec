@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/aligatr"
 
   s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.15"
   s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/AliSoftware/Reusable.git", :tag => s.version.to_s }
